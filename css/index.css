@@ -1,5 +1,8 @@
 #registration {
-    max-width: 60% !important;
+    max-width: 50% !important;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 .form-control:focus {
     color: #100C08;
@@ -15,6 +18,17 @@
     border-color: #841452;
     background-color: #841452;
 }
-#register {
-
+.form-check-input:checked {
+    border-color: #E6007F;
+    background-color: #E6007F;
 }
+#register {
+    text-align: center;
+    font-family: 'Telegraf Ultrabold',Helvet,serif;
+    font-size: calc(2.6rem + .9vw);
+}
+.contacts{
+    max-width: 20px;
+    color: #E6007F;
+}
+
