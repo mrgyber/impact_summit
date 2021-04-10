@@ -10,6 +10,7 @@
 
 .navbar-nav {
     margin: auto;
+    display: block ruby;
 }
 
 .alert {
@@ -62,6 +63,13 @@
 #logo {
     width: 122px;
     height: 77px;
+    margin-right: 10vw;
+}
+
+@media (max-width: 650px) {
+    #logo {
+        margin-right: 0;
+    }
 }
 
 #spb_banner {
