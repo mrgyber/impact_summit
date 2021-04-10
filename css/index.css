@@ -65,6 +65,7 @@
 }
 
 #spb_banner {
+    cursor: default;
     color: white;
     display: grid;
     text-align: center;
@@ -122,6 +123,7 @@
 }
 
 #register {
+    cursor: default;
     text-align: center;
     font-family: 'Telegraf Ultrabold', Helvet, serif;
     font-size: calc(2.6rem + .9vw);
@@ -130,4 +132,9 @@
 .contacts {
     max-width: 20px;
     color: #E6007F;
+}
+
+#personal_info + label {
+    user-select: none;
+    cursor: pointer;
 }
