@@ -62,10 +62,17 @@
     box-shadow: 0 0 0 .25rem rgba(230, 0, 127, .25);
 }
 
-#logo {
+#logo, #logo_mobile {
     width: 122px;
     height: 77px;
+}
+
+#logo {
     margin-right: 10vw;
+}
+
+#logo_mobile {
+    display: none;
 }
 
 #spb_banner {
@@ -119,6 +126,14 @@
 
     .nav {
         font-size: 15px !important;
+    }
+
+    #logo_mobile {
+        display: block;
+    }
+
+    #logo {
+        display: none;
     }
 }
 
