@@ -73,7 +73,8 @@
     max-height: 900px;
     background: url(../img/spb.jpg);
     background-size: cover;
-    min-height: 500px;
+    min-height: 300px;
+    height: 40vw;
 }
 
 #spb_banner_inner {
