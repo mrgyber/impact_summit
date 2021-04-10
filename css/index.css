@@ -68,12 +68,6 @@
     margin-right: 10vw;
 }
 
-@media (max-width: 650px) {
-    #logo {
-        margin-right: 0;
-    }
-}
-
 #spb_banner {
     cursor: default;
     color: white;
@@ -106,12 +100,6 @@
     font-size: calc(1.5rem + .9vw);
 }
 
-@media (max-width: 670px) {
-    #h5-spb {
-        font-size: calc(1.2rem + .9vw);
-    }
-}
-
 @media (max-width: 575px) {
     #p1-spb {
         font-size: calc(2rem + .9vw);
@@ -123,6 +111,30 @@
 
     #h5-spb {
         font-size: calc(1.0rem + .9vw);
+    }
+
+    .navbar-nav {
+        display: block;
+    }
+}
+
+@media (max-width: 670px) {
+    #h5-spb {
+        font-size: calc(1.2rem + .9vw);
+    }
+
+    #logo {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 740px) {
+    .nav {
+        font-size: 12px !important;
+    }
+
+    .navbar-brand {
+        margin-right: .5rem;
     }
 }
 
