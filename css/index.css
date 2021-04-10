@@ -19,7 +19,7 @@
 .form-control:focus {
     color: #100C08;
     border-color: #C00A74 !important;
-    box-shadow: 0 0 0 0.25rem rgb(230 0 127 / 25%);
+    box-shadow: 0 0 0 0.25rem rgba(230, 0, 127, .25);
 }
 
 .btn {
@@ -40,6 +40,28 @@
 .form-check-input:checked {
     border-color: #E6007F;
     background-color: #E6007F;
+}
+
+.btn-primary:disabled {
+    border-color: #e6647f;
+    background-color: #e6647f;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 .25rem rgba(230, 0, 127, .25);
+}
+
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 .25rem rgba(230, 0, 127, .25);
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 0 .25rem rgba(230, 0, 127, .25);
+}
+
+#logo {
+    width: 122px;
+    height: 77px;
 }
 
 #spb_banner {
