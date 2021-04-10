@@ -42,6 +42,27 @@
             padding-top: calc(103px + 30vw - 5vh);
         }
 
+        @media (max-height: 600px) {
+            #p1-spb {
+                font-size: calc(3.9rem + .9vw) !important;
+                padding-left: calc(50vw - (3.9rem + .9vw) * 4.0) !important;
+                padding-top: calc(103px + 1vw - 15vh) !important
+            }
+
+            #p2-spb {
+                font-size: calc(3.9rem + .9vw) !important;
+                padding-left: calc(50vw - (3.9rem + .9vw) * 4.2) !important;
+                padding-top: calc(103px + 10vw - 15vh) !important
+            }
+
+            #h5-spb {
+                text-align: center;
+                font-size: calc(1.5rem + .9vw) !important;
+                padding-left: calc(50vw - (1.5rem + .9vw) * 10.9) !important;
+                padding-top: calc(103px + 27vw - 15vh) !important;
+            }
+        }
+
         @media (max-width: 670px) {
             #h5-spb {
                 font-size: calc(1.2rem + .9vw);
@@ -70,6 +91,37 @@
                     font-size: calc(1.0rem + .9vw) !important;
                     padding-left: calc(50vw - (1.2rem + .9vw) * 9.5) !important;
                     padding-top: calc(103px + 27vw - 15vh) !important;
+                }
+            }
+
+            @media (min-height: 600px) and (max-height: 800px) {
+                #p1-spb {
+                    padding-left: calc(50vw - (2rem + .9vw) * 4.0) !important;
+                    padding-top: calc(103px + 1vw - 12vh) !important
+                }
+
+                #p2-spb {
+                    padding-left: calc(50vw - (2rem + .9vw) * 4.2) !important;
+                    padding-top: calc(103px + 10vw - 12vh) !important
+                }
+
+                #h5-spb {
+                    padding-left: calc(50vw - (1.2rem + .9vw) * 9.5) !important;
+                    padding-top: calc(103px + 27vw - 12vh) !important;
+                }
+            }
+
+            @media (max-height: 1300px) and (min-height: 1000px) {
+                #p1-spb {
+                    padding-top: calc(103px + 5vw - 10vh) !important
+                }
+
+                #p2-spb {
+                    padding-top: calc(103px + 15vw - 10vh) !important
+                }
+
+                #h5-spb {
+                    padding-top: calc(103px + 33vw - 10vh) !important;
                 }
             }
 
@@ -126,11 +178,11 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid" style="padding: 0; max-height: 600px">
+<div class="container-fluid" style="padding: 0; max-height: 900px">
     <p id="p1-spb">Impact Summit</p>
     <p id="p2-spb">Saint Petersburg</p>
     <h5 id="h5-spb">Leading a Generation To Change The World!</h5>
-    <img src="img/spb.jpg" alt="" style="width: 100%">
+    <img src="img/spb.jpg" alt="" style="width: 100%; max-height: 900px; min-width: 100%;">
 </div>
 
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
