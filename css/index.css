@@ -1,34 +1,111 @@
+@font-face {
+    font-family: "Telegraf Ultrabold";
+    font-display: swap;
+    src: url("../font/Telegraf-UltraBold.otf") format("opentype");
+}
+
+.nav {
+    text-align: center;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.alert {
+    display: none;
+}
+
+.form-control:focus {
+    color: #100C08;
+    border-color: #C00A74 !important;
+    box-shadow: 0 0 0 0.25rem rgb(230 0 127 / 25%);
+}
+
+.btn {
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #E6007F;
+    border-color: #E6007F;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    border-color: #841452;
+    background-color: #841452;
+}
+
+.form-check-input:checked {
+    border-color: #E6007F;
+    background-color: #E6007F;
+}
+
+#spb_banner {
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 0;
+    max-height: 900px;
+    background: url(../img/spb.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+
+#spb_banner_inner {
+    display: grid;
+}
+
+#p1-spb {
+    font-family: 'Telegraf Ultrabold', Helvet, serif;
+    font-size: calc(3.8rem + .9vw);
+}
+
+#p2-spb {
+    font-family: 'Telegraf Ultrabold', Helvet, serif;
+    font-size: calc(3.8rem + .9vw);
+}
+
+#h5-spb {
+    font-family: 'Telegraf Ultrabold', Helvet, serif;
+    font-size: calc(1.5rem + .9vw);
+}
+
+@media (max-width: 670px) {
+    #h5-spb {
+        font-size: calc(1.2rem + .9vw);
+    }
+}
+
+@media (max-width: 575px) {
+    #p1-spb {
+        font-size: calc(2rem + .9vw);
+    }
+
+    #p2-spb {
+        font-size: calc(2rem + .9vw);
+    }
+
+    #h5-spb {
+        font-size: calc(1.0rem + .9vw);
+    }
+}
+
 #registration {
     max-width: 50% !important;
     min-width: 300px;
     margin: 0 auto;
     padding-top: 50px;
 }
-.form-control:focus {
-    color: #100C08;
-    border-color: #C00A74 !important;
-    box-shadow: 0 0 0 0.25rem rgb(230 0 127 / 25%);
-}
-.btn-primary {
-    color: white;
-    background-color: #E6007F;
-    border-color: #E6007F;
-}
-.btn-primary:hover, .btn-primary:focus {
-    border-color: #841452;
-    background-color: #841452;
-}
-.form-check-input:checked {
-    border-color: #E6007F;
-    background-color: #E6007F;
-}
+
 #register {
     text-align: center;
-    font-family: 'Telegraf Ultrabold',Helvet,serif;
+    font-family: 'Telegraf Ultrabold', Helvet, serif;
     font-size: calc(2.6rem + .9vw);
 }
-.contacts{
+
+.contacts {
     max-width: 20px;
     color: #E6007F;
 }
-
