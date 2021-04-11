@@ -193,16 +193,6 @@
     .timeline {
         padding-left: 3rem !important;
     }
-    .pink {
-        margin-top: 1rem !important;
-    }
-    #col-stay {
-        text-align: center !important;
-        margin-bottom: 0.5rem;
-    }
-    #col-2021 {
-        text-align: center !important;
-    }
 }
 
 @media (max-width: 670px) {
@@ -248,6 +238,20 @@
     #col-2021 {
         text-align: center !important;
     }
+    .pink {
+        margin-top: 1rem !important;
+    }
+    #col-stay {
+        text-align: center !important;
+        margin-bottom: 0.5rem;
+        min-width: 100% !important;
+    }
+    #col-2021 {
+        text-align: center !important;
+    }
+    #contacts-col {
+        min-width: 100% !important;
+}
 }
 
 #register {
