@@ -166,9 +166,26 @@
     .timeline {
         padding-left: 3rem !important;
     }
+    .pink {
+        margin-top: 1rem !important;
+    }
+    #col-stay {
+        text-align: center !important;
+        margin-bottom: 0.5rem;
+    }
+    #col-2021 {
+        text-align: center !important;
+    }
 }
 
 @media (max-width: 670px) {
+    #p1-spb {
+        font-size: calc(2.5rem + .9vw);
+    }
+
+    #p2-spb {
+        font-size: calc(2.5rem + .9vw);
+    }
     #h5-spb {
         font-size: calc(1.2rem + .9vw);
     }
@@ -198,6 +215,16 @@
     /*    width: 70%;*/
     /*    margin: 0 auto;*/
     /*}*/
+}
+
+@media (max-width: 770px) {
+    #col-2021 {
+        text-align: center !important;
+    }
+}
+
+#register {
+    margin-top: 1rem;
 }
 
 #date_text {
@@ -243,13 +270,15 @@
 }
 .footer-header {
     cursor: default;
-    text-align: center;
     font-family: 'Telegraf Ultrabold', Helvet, serif;
     font-size: calc(1.6rem + .9vw);
 }
 .contacts {
     max-width: calc(1.6rem + .9vw);
     fill: #E6007F;
+}
+#contacts {
+    text-align: center;
 }
 .flex-svg-container a {
     margin: 0 1%;
@@ -295,7 +324,7 @@
 
 .speaker-img {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
 }
 
 #program {
