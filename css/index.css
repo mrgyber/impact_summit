@@ -99,7 +99,7 @@
     text-align: center;
     padding: 0;
     max-height: 900px;
-    background: url(../img/spb.jpg);
+    background: url(../img/spb.jpg) no-repeat fixed 70% 400%;
     background-size: cover;
     min-height: 300px;
     height: 40vw;
