@@ -124,6 +124,12 @@
     font-size: calc(1.5rem + .9vw);
 }
 
+@media (max-width: 375px) {
+    #register {
+        font-size: calc(2.2rem + .9vw);
+    }
+}
+
 @media (max-width: 575px) {
     #p1-spb {
         font-size: calc(2rem + .9vw);
