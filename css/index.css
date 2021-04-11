@@ -200,6 +200,17 @@
     /*    margin: 0 auto;*/
     /*}*/
 }
+
+@media (max-width: 980px) {
+    .row > * {
+        max-width: 100vw;
+        width: 100vw;
+    }
+    #date_text {
+        padding-right: 0;
+    }
+}
+
 .page-footer {
     padding-top: 1%;
     margin-top: 5%;
