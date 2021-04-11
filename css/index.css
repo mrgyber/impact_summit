@@ -32,6 +32,7 @@
 }
 
 #registration {
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     border: solid 5px #E6007F;
     width: 90vw !important;
@@ -271,6 +272,34 @@
     padding-left: 0;
 }
 
+@media (max-width: 770px) {
+    #col-2021 {
+        text-align: center !important;
+    }
+    .pink {
+        margin-top: 1rem !important;
+    }
+    #col-stay {
+        text-align: center !important;
+        margin-bottom: 0.5rem;
+        min-width: 100% !important;
+    }
+    #col-2021 {
+        text-align: center !important;
+    }
+    #contacts-col {
+        min-width: 100% !important;
+}
+}
+
+#register {
+    margin-top: 1rem;
+}
+
+#date_text {
+    padding-left: 0;
+}
+
 @media (max-width: 992px) {
     #date_text {
         display: block !important;
@@ -304,7 +333,7 @@
     color: #E6007F;
 }
 .cohost-logo img {
-    width: 9rem;
+    max-width: 200px;
 }
 .sections-header, .date {
     cursor: default;
