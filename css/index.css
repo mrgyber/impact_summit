@@ -28,6 +28,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 10px 30px;
+    position: relative;
 }
 
 #registration {
@@ -35,6 +36,32 @@
     border: solid 5px #E6007F;
     width: 90vw !important;
     max-width: 800px !important;
+}
+
+#svg1 {
+    content: '';
+    position: absolute;
+    left: -42%;
+    top: 20%;
+    width: 150px;
+    height: 150px;
+    transform-origin: right bottom;
+    transform:
+            rotate(200deg)
+            translate(0, 100%);
+}
+
+#svg2 {
+    content: '';
+    position: absolute;
+    left: 86%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    transform-origin: right bottom;
+    transform:
+            rotate(30deg)
+            translate(0, -100%)
 }
 
 .btn {
@@ -237,6 +264,15 @@
         width: 100vw;
         padding-left: 0;
         padding-right: 0;
+    }
+}
+
+@media (max-width: 1250px) {
+    #svg1 {
+        display: none;
+    }
+    #svg2 {
+        display: none;
     }
 }
 
