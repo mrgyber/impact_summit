@@ -123,6 +123,12 @@
     font-size: calc(1.5rem + .9vw);
 }
 
+@media (max-height: 400px) {
+    #spb_banner {
+        background: url(../img/spb.jpg) no-repeat fixed 70% 30%;
+    }
+}
+
 @media (max-width: 375px) {
     #register {
         font-size: calc(2.2rem + .9vw);
