@@ -333,12 +333,12 @@
         xhr.onreadystatechange = function () {
             if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
                 if (xhr.responseText === '200') {
-                    alert('Заявка успешно отправлена!', 3, 'success');
+                    alert('You have registered successfully!', 3, 'success');
                 } else {
-                    alert('Что-то пошло не так', 3, 'danger');
+                    alert('Something went wrong', 3, 'danger');
                 }
             } else {
-                alert('Что-то пошло не так', 3, 'danger');
+                alert('Something went wrong', 3, 'danger');
             }
         };
         xhr.send(body);
