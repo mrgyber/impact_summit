@@ -329,6 +329,22 @@
     }
 }
 
+@media (max-height: 500px) {
+    #logo {
+        width: 61px;
+        height: 38px;
+    }
+    .nav-link {
+        margin-top: 0 !important;
+    }
+    .navbar {
+        height: 50px;
+    }
+    #spb_banner {
+        margin-top: 50px;
+    }
+}
+
 @media (min-height: 900px) and (max-height: 1400px) {
     #spb_banner {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/spb3.jpg) no-repeat fixed 10% 45% !important;
