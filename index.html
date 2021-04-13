@@ -341,7 +341,7 @@
                     document.getElementById("email").value = ""
                     alert('You have registered successfully!', 3, 'success');
                 } else {
-                    alert('Something went wrong', 3, 'danger');
+                    alert(xhr.responseText, 3, 'danger');
                 }
             } else if (xhr.readyState === XMLHttpRequest.DONE && xhr.status !== 0) {
                 alert('Something went wrong', 3, 'danger');
