@@ -337,6 +337,8 @@
         xhr.onreadystatechange = function () {
             if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
                 if (xhr.responseText === '200') {
+                    document.getElementById("name").value = ""
+                    document.getElementById("email").value = ""
                     alert('You have registered successfully!', 3, 'success');
                 } else {
                     alert('Something went wrong', 3, 'danger');
@@ -346,9 +348,6 @@
             }
         };
         xhr.send(body);
-
-        document.getElementById("name").value = ""
-        document.getElementById("email").value = ""
     };
 </script>
 
