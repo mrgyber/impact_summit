@@ -366,7 +366,8 @@
     padding-top: 1%;
     margin-top: 5%;
     height: auto;
-    background-color: #9F9F9F;
+    border-top: 1px solid #841452;
+    background-color: #f8f9fa !important;
 }
 .sections {
     margin: 3rem auto 0 auto;
