@@ -341,7 +341,7 @@
                 } else {
                     alert('Something went wrong', 3, 'danger');
                 }
-            } else {
+            } else if (xhr.status !== 0) {
                 alert('Something went wrong', 3, 'danger');
             }
         };
