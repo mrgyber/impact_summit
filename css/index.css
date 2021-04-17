@@ -4,6 +4,10 @@
     src: url("../font/Telegraf-UltraBold.otf") format("opentype");
 }
 
+img {
+    transform: translateZ(0);
+}
+
 .nav {
     text-align: center;
     font-family: 'Telegraf Ultrabold', Helvet, serif;
@@ -346,18 +350,18 @@
 
 @media (min-height: 900px) and (max-height: 1400px) {
     #spb_banner {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/spb3.jpg) no-repeat fixed 10% 45% !important;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/spb3c.jpg) no-repeat fixed 10% 45% !important;
         background-size: cover !important;
     }
     @media (max-width: 1600px) {
         #spb_banner {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/spb3.jpg) no-repeat fixed !important;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/spb3c.jpg) no-repeat fixed !important;
             background-size: contain !important;
         }
     }
     @media (max-width: 700px) {
         #spb_banner {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/spb3.jpg) no-repeat fixed 10% 45% !important;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/spb3c.jpg) no-repeat fixed 10% 45% !important;
         }
     }
 }
