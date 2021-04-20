@@ -361,7 +361,7 @@ img {
     }
     @media (max-width: 700px) {
         #spb_banner {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/spb.webp) no-repeat fixed 10% 45% !important;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/spb-mobile.webp) no-repeat fixed 10% 45% !important;
         }
     }
 }
