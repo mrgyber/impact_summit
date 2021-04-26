@@ -405,10 +405,13 @@ img {
 .flex-svg-container a {
     margin: 0 1%;
 }
-.partner-logo img{
+.partner-logo img {
     height: 70px;
 }
-
+#lab_media {
+    height: 50px;
+    width: 100%;
+}
 .speaker-card div img{
     max-width: calc(10rem + .9vw);
     display: block;
